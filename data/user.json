@@ -1,19 +1,19 @@
 {
-    "name": "Doe",
-    "first_name": "Jane",
-    "occupation": "Web developer",
+    "Nom": "Droskall",
+    "Surnom": "LA VIPERE",
+    "occupation": "Sorcelleur",
     "experiences": [
         {
-            "year": 2020,
-            "company": "Samll Startup"
+            "Année": 2022,
+            "Clan": "Sorcelleur"
         },
         {
-            "year": 2019,
-            "company": "World Corp"
+            "Année": 2019,
+            "Clan": "Formation Kaer Mohren"
         },
         {
-            "year": 2018,
-            "company": "Formation UpTo Fourmies"
+            "Année": 2016,
+            "Clan": "Entrée chez les Vikings"
         }
     ]
 }

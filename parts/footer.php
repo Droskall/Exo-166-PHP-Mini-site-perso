@@ -1,5 +1,4 @@
 <footer>
-
 </footer>
 
 <script src="../public/app.js"></script>
