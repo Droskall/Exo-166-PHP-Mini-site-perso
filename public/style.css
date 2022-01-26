@@ -26,6 +26,11 @@ footer {
 	top: 750px;
 	width: 100%;
 }
+
+.monster {
+	width: 300px;
+	height: 200px;
+}
 ul {
 	display: flex;
 	list-style-type: none;
@@ -35,18 +40,22 @@ ul {
 li {
 	margin-right: 18px;
 }
+
 a {
 	text-decoration: none;
 }
+
 section, form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 section h1 {
 	margin: 8px;
 }
+
 #name, textarea {
 	margin-left: 2%;
 	font-size: 1.5rem;
