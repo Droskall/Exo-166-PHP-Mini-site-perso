@@ -33,7 +33,7 @@ $headers = array(
 );
 
 if (isset($_POST['submit'])) {
-    if ($mail($to, $sujet, $message1, $from)) {
+    if ($mail($to, $sujet, $mess, $from)) {
         echo "c'est bon!";
     }
     else {
@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
 }
 
 if (isset($_POST["email"], $_POST["message"])){
-    mail($to, $sujet, $message, $headers, "-f ".$from);
+    mail($to, $sujet, $mess, $headers, "-f ".$from);
 }
 
 header('Location: admin.php');
