@@ -1,15 +1,32 @@
+<?php
+require __DIR__ . '/../lib/message.php';
+?>
+
 <section>
-    <form action="../public/save.php" method="POST">
-        <div>
-            <label for="name">Votre nom: </label>
-            <input type="text" name="name" id="name" required maxlength="25">
-        </div>
-        <div>
-            <label for="message">Votre message: </label>
-            <textarea id="message" name="message" required maxlength="500"></textarea>
-        </div>
-        <div>
-            <input type="submit" id="submit">
-        </div>
-    </form>
+
+    <div id="containerContact">
+
+        <form method="post" action="../public/save.php">
+
+            <label for="name">Last name :</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="vorname">First name:</label>
+            <input type="text" name="vorname" id="vorname" required>
+
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message :</label>
+            <textarea name="message" id="message" required></textarea>
+
+            <input id="send" type="submit" value="Send">
+
+        </form>
+
+    </div>
+
+    <span> My number : 07 00 00 00 00</span>
+    <span>My Email : droskall@gmail.com</span>
+    <span>My adress : Kaer Mohren</span>
 </section>
