@@ -57,22 +57,9 @@ function getUserData() {
  * @return string
  * Function secured string data
  */
-function getSecuredStringPostData(string $name): string {
+function getSecuredStringPostData(String $name): String {
     $data = $_POST[$name] ?? '';
     return strip_tags(trim($data));
-}
-
-/**
- * @param string ...$inputNames
- * @return bool
- */
-function issetMandatoryPostValue(string ...$inputNames): bool {
-    foreach ($inputNames as $inputName) {
-        if (!isset($_POST[$inputName])) {
-            return false;
-        }
-    }
-    return true;
 }
 
 /**

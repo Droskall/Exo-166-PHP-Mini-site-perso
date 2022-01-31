@@ -2,7 +2,7 @@
 session_start();
 
 $_SESSION['username'] = 'Damien';
-$_SESSION['password'] = 'azerty001';
+$_SESSION['password'] = 'azerty011';
 
 if ($_POST['username'] !== $_SESSION['username'] || $_POST['password'] !== $_SESSION['password']) {
     header('Location: /public/index.php?error=5');
